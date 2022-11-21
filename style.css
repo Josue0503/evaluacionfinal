@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 15%;
+}
+
+header {
+    background-color:yellow;
+    color: yellow;
+}
+
+header .menu ul li {
+    list-style: none;
+}
+
+header .menu ul li a {
+    
+    color: white;
+}
+
+header .menu ul li:hover {
+    background-color: blue;
+    color: white;
+}
+
+header .menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+header,
+.left,
+.right {
+    font-size: 30px;
+    padding: 5%;
+    text-align: center;
+}
+
+.left {
+    color: white;
+    width: 35%;
+    border: rgb(51, 42, 42) solid 3px;
+    background-color: rgb(21, 107, 177);
+}
+
+.right {
+    color: white;
+    width: 60%;
+    border: rgb(51, 42, 42) solid 3px;
+    background-color: greenyellow;
+}
+
+footer {
+    color: rgb(241, 244, 248);
+    background-color: rgb(182, 169, 52);
+    width: 100%;
+}
+
+.container {
+    text-align: center;
+    /* necesario para la class .center */
+}
+
+.container .left nav ul li{
+    list-style: none;
+}
+
+.container .left nav ul a{
+   color: white;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+
+.right {
+    float: right;
+}
+
+footer{
+    display: flex;
+align-items: center;
+}
+footer .redes .you{
+    text-align: right;
+}
+
+footer img{
+    height: 50px;
+}
+
+footer{
+   align-items: center;
+}
